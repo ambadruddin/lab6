@@ -11,9 +11,10 @@ struct Course {
 
     int cid;
     string dept;
+    string name;
 
     Course();
-    Course(int c, string d); //modify constructor and add default value, or add new constructor
+    Course(int c, string d, string n="No course name"); //modify constructor and add default value, or add new constructor
 
 };
 

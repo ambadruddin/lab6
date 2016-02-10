@@ -35,13 +35,11 @@ double Student::compute_gpa()
 
     for(Enroll & e: my_enrollments)
     {
-        //implement here
-
-
+        sum = e.grade;
     }
 
     //once implementation complete, delete this
-    cerr << "Student::compute_gpa() not yet implemented" << endl;
+    // cerr << "Student::compute_gpa() not yet implemented" << endl;
 
     return sum / num_courses;
 }
